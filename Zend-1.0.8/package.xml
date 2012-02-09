@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Zend</name>
+ <channel>pear.eveyron.com</channel>
+ <summary>ZendFramework Extension PHP Library</summary>
+ <description>Enhance ZendFramework with custom resources, plugins, adapters, add-ons, etc.</description>
+ <lead>
+  <name>Eveyron</name>
+  <user>eveyron</user>
+  <email>eveyron@eveyron.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2010-10-16</date>
+ <time>13:35:06</time>
+ <version>
+  <release>1.0.8</release>
+  <api>1.0.8</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license>http://www.opensource.org/licenses/bsd-license.php  New BSD License</license>
+ <notes>
+-
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="dbc00704e557d2b2742ff91a0b5ec55e" name="Eveyron/Zend/Application.php" role="php" />
+   <file baseinstalldir="/" md5sum="c2806d07778c3135a908e52f0b7726a5" name="Eveyron/Zend/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="babe78c29d59e43c9cfcabe26799d0e6" name="Eveyron/Zend/Application/Resource/Acl.php" role="php" />
+   <file baseinstalldir="/" md5sum="bfc123e280e0551b66d92a0d733ee927" name="Eveyron/Zend/Application/Resource/Doctrine.php" role="php" />
+   <file baseinstalldir="/" md5sum="d57fb098a1f9d0125892ac7a78c75614" name="Eveyron/Zend/Application/Resource/Env.php" role="php" />
+   <file baseinstalldir="/" md5sum="83bb3d4a8554702cbc33c2a5164e1b62" name="Eveyron/Zend/Application/Resource/Timezone.php" role="php" />
+   <file baseinstalldir="/" md5sum="c6695625cb20076d4d31b4f1e275c1a3" name="Eveyron/Zend/Application/Resource/Zfdebug.php" role="php" />
+   <file baseinstalldir="/" md5sum="ca240763e43c99f96688fd6c65a9c2c3" name="Eveyron/Zend/Auth/Adapter/Doctrine.php" role="php" />
+   <file baseinstalldir="/" md5sum="0683065254787843c749444b1d84c8df" name="Eveyron/Zend/Auth/Adapter/Http/Resolver/Doctrine.php" role="php" />
+   <file baseinstalldir="/" md5sum="69605bdca70914f95e4a58a35fc3480d" name="Eveyron/Zend/Config/Yaml.php" role="php" />
+   <file baseinstalldir="/" md5sum="7f75168210217057045bc1ea50d59d27" name="Eveyron/Zend/Config/Writer/Yaml.php" role="php" />
+   <file baseinstalldir="/" md5sum="3216c171152b6491a75d2387171ed08c" name="Eveyron/Zend/Controller/Action/Helper/AbstractContext.php" role="php" />
+   <file baseinstalldir="/" md5sum="0c2cde51fe7237cac3e1f31788b5f813" name="Eveyron/Zend/Controller/Action/Helper/ContextSwitch.php" role="php" />
+   <file baseinstalldir="/" md5sum="16f7fd3cb2461443dc615843e78de2b5" name="Eveyron/Zend/Controller/Action/Helper/PhpContext.php" role="php" />
+   <file baseinstalldir="/" md5sum="8b3fcf6ce2450125dadf31afe14e0972" name="Eveyron/Zend/Controller/Action/Helper/XmlContext.php" role="php" />
+   <file baseinstalldir="/" md5sum="c1b07b9defe5c72a179c3ece23138dd6" name="Eveyron/Zend/Controller/Action/Helper/YamlContext.php" role="php" />
+   <file baseinstalldir="/" md5sum="5cf44e35894bdc345f2ac18c7ace549e" name="Eveyron/Zend/Controller/Plugin/Error.php" role="php" />
+   <file baseinstalldir="/" md5sum="02543cba791f7f47c1489ecaf74a50d0" name="Eveyron/Zend/Controller/Plugin/Language.php" role="php" />
+   <file baseinstalldir="/" md5sum="4d0b83d38fbb931cbe3827b1634c959e" name="Eveyron/Zend/Controller/Plugin/Layout.php" role="php" />
+   <file baseinstalldir="/" md5sum="029d1592f6869da152f5ed1ee22be6af" name="Eveyron/Zend/Http/Client.php" role="php" />
+   <file baseinstalldir="/" md5sum="4a0d6551c636cd5c183694525ae191a7" name="Eveyron/Zend/Http/MultiClient.php" role="php" />
+   <file baseinstalldir="/" md5sum="e7a8fba4b1dc32057e23435d0c49414f" name="Eveyron/Zend/Http/Client/Adapter/Curl.php" role="php" />
+   <file baseinstalldir="/" md5sum="7fc3fb42d356ed2a7759c612ee5277ea" name="Eveyron/Zend/Http/Client/Adapter/HttpRequest.php" role="php" />
+   <file baseinstalldir="/" md5sum="5f0b0b6fc1c35564b69f4cd10eab1c24" name="Eveyron/Zend/Http/MultiClient/Adapter.php" role="php" />
+   <file baseinstalldir="/" md5sum="6b09fa942b5440732f4070c8412c9e69" name="Eveyron/Zend/Http/MultiClient/Adapter/HttpRequestPool.php" role="php" />
+   <file baseinstalldir="/" md5sum="dda7cd86d6ffd1eecd78a9f21199439a" name="Eveyron/Zend/Http/MultiClient/Adapter/Interface.php" role="php" />
+   <file baseinstalldir="/" md5sum="7fe0e19ffc1147ca4ae45ba572c8ce72" name="Eveyron/Zend/Http/MultiClient/Adapter/MultiCurl.php" role="php" />
+   <file baseinstalldir="/" md5sum="70dfb4deed4dcf1fd7637bf9cb55ac3e" name="Eveyron/Zend/Log/Writer/Doctrine.php" role="php" />
+   <file baseinstalldir="/" md5sum="bfba6d0dcacaf0104ca54874f33b5db4" name="Eveyron/Zend/Translate/Adapter/Abstract.php" role="php" />
+   <file baseinstalldir="/" md5sum="7ef4bcb8486b0e9fa2247717cf7ed4d5" name="Eveyron/Zend/Translate/Adapter/Google.php" role="php" />
+   <file baseinstalldir="/" md5sum="0eb1655807c9f0270454aa56d0d606d1" name="Eveyron/Zend/View/Helper/Cdn.php" role="php" />
+   <file baseinstalldir="/" md5sum="6177b3ac25335fa09b2be198e8f975f1" name="Eveyron/Zend/View/Helper/HeadMetaPage.php" role="php" />
+   <file baseinstalldir="/" md5sum="499b7721a0ac13a49876e36acf02e953" name="Eveyron/Zend/View/Helper/Navigation/Sitemap.php" role="php" />
+   <file baseinstalldir="/" md5sum="3e563a89bd20213c4668057d058a0fcf" name="Eveyron/Zend/View/Helper/Navigation/SitemapIndex.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.4</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.6</min>
+   </pearinstaller>
+   <package>
+    <name>Eveyron</name>
+    <channel>pear.eveyron.com</channel>
+    <min>1.0.0</min>
+   </package>
+  </required>
+  <optional>
+   <package>
+    <name>Xml</name>
+    <channel>pear.eveyron.com</channel>
+    <min>1.0.0</min>
+   </package>
+   <package>
+    <name>Yaml</name>
+    <channel>pear.eveyron.com</channel>
+    <min>1.0.0</min>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.0.6</release>
+    <api>1.0.6</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-10-09</date>
+   <license>http://www.opensource.org/licenses/bsd-license.php  New BSD License</license>
+   <notes>
+-
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.7</release>
+    <api>1.0.7</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-10-09</date>
+   <license>http://www.opensource.org/licenses/bsd-license.php  New BSD License</license>
+   <notes>
+-
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.8</release>
+    <api>1.0.8</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-10-16</date>
+   <license>http://www.opensource.org/licenses/bsd-license.php  New BSD License</license>
+   <notes>
+-
+   </notes>
+  </release>
+ </changelog>
+</package>

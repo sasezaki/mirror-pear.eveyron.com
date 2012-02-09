@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Eveyron</name>
+ <channel>pear.eveyron.com</channel>
+ <summary>Eveyron Core Package</summary>
+ <description>A base package required by all Eveyron packages. There is no need to install it manually. It&apos;s listed as a required dependency in all the packages, meaning it will be installed automatically along with a package of your choice.</description>
+ <lead>
+  <name>Eveyron</name>
+  <user>eveyron</user>
+  <email>eveyron@eveyron.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2010-09-12</date>
+ <time>16:13:49</time>
+ <version>
+  <release>1.0.1</release>
+  <api>1.0.1</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license>http://www.opensource.org/licenses/bsd-license.php  New BSD License</license>
+ <notes>
+-
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="3c7fe215fec8ac1cc9003d01cc951559" name="Eveyron/Base.php" role="php" />
+   <file baseinstalldir="/" md5sum="8de37c889b90c374321f8a55ca27e4dc" name="Eveyron/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="917a8945ddc5cd08c721bf2b78384f3e" name="Eveyron/Loader.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.4</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.6</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.0.1</release>
+    <api>1.0.1</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-09-12</date>
+   <license>http://www.opensource.org/licenses/bsd-license.php  New BSD License</license>
+   <notes>
+-
+   </notes>
+  </release>
+ </changelog>
+</package>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Yaml</name>
+ <channel>pear.eveyron.com</channel>
+ <summary>YAML Parser &amp;amp; Emitter Adapters</summary>
+ <description>Provides an easy interaction with different YAML readers &amp;amp; writers. Comes standard with pecl yaml, pecl syck, sfYaml, Horde_Yaml and spyc adapters. Allows developers to extend the functionality with custom YAML adapters.</description>
+ <lead>
+  <name>Eveyron</name>
+  <user>eveyron</user>
+  <email>eveyron@eveyron.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2010-09-13</date>
+ <time>14:00:33</time>
+ <version>
+  <release>1.0.3</release>
+  <api>1.0.3</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license>http://www.opensource.org/licenses/bsd-license.php  New BSD License</license>
+ <notes>
+-
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <file baseinstalldir="/" md5sum="334e456f4469e6189661213fa1b0bae6" name="Eveyron/Yaml.php" role="php" />
+   <file baseinstalldir="/" md5sum="865c8ee2bc7f789d9cc9d85e41c6b007" name="Eveyron/Yaml/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="403764dfc0c9f06015f45d88f0188eff" name="Eveyron/Yaml/Adapter/Abstract.php" role="php" />
+   <file baseinstalldir="/" md5sum="ccfb1ca5cf1cf7149fceb5badab817fd" name="Eveyron/Yaml/Adapter/Exception.php" role="php" />
+   <file baseinstalldir="/" md5sum="6b0e7c006b29223afbd452ca75d19c13" name="Eveyron/Yaml/Adapter/HordeYaml.php" role="php" />
+   <file baseinstalldir="/" md5sum="0bcf8efbf09d07ac4c274379e73758ba" name="Eveyron/Yaml/Adapter/Interface.php" role="php" />
+   <file baseinstalldir="/" md5sum="69058767e400033ed2a29e81825ffc1e" name="Eveyron/Yaml/Adapter/PeclSyck.php" role="php" />
+   <file baseinstalldir="/" md5sum="969c611846d59fb508fb4c8d6440366c" name="Eveyron/Yaml/Adapter/PeclYaml.php" role="php" />
+   <file baseinstalldir="/" md5sum="c9c3e597d9ec0dd3c0b0041b93d9f109" name="Eveyron/Yaml/Adapter/SfYaml.php" role="php" />
+   <file baseinstalldir="/" md5sum="574818b54a093875ee41672444b34928" name="Eveyron/Yaml/Adapter/Spyc.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.4</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.6</min>
+   </pearinstaller>
+   <package>
+    <name>Eveyron</name>
+    <channel>pear.eveyron.com</channel>
+    <min>1.0</min>
+   </package>
+   <package>
+    <name>YAML</name>
+    <channel>pear.symfony-project.com</channel>
+    <min>1.0.0</min>
+   </package>
+  </required>
+  <optional>
+   <package>
+    <name>Yaml</name>
+    <channel>pear.horde.org</channel>
+    <min>1.0.1</min>
+   </package>
+   <package>
+    <name>yaml</name>
+    <channel>pecl.php.net</channel>
+    <min>0.6.3</min>
+   </package>
+   <package>
+    <name>syck</name>
+    <channel>pecl.php.net</channel>
+    <min>0.9.3</min>
+   </package>
+  </optional>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.0.2</release>
+    <api>1.0.2</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-09-12</date>
+   <license>http://www.opensource.org/licenses/bsd-license.php  New BSD License</license>
+   <notes>
+-
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.3</release>
+    <api>1.0.3</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-09-13</date>
+   <license>http://www.opensource.org/licenses/bsd-license.php  New BSD License</license>
+   <notes>
+-
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.5</release>
+    <api>1.0.5</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-09-13</date>
+   <license>http://www.opensource.org/licenses/bsd-license.php  New BSD License</license>
+   <notes>
+-
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1.0.6</release>
+    <api>1.0.6</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-09-13</date>
+   <license>http://www.opensource.org/licenses/bsd-license.php  New BSD License</license>
+   <notes>
+-
+   </notes>
+  </release>
+ </changelog>
+</package>
